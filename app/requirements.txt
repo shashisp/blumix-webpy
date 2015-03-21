@@ -1,0 +1,4 @@
+argparse==1.2.1
+pyDAL==15.02.27
+requests==2.6.0
+wsgiref==0.1.2
