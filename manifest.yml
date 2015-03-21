@@ -1,0 +1,9 @@
+applications:
+- host: crimeapp
+  name: crimeapp
+  command: python web2py.py -a '281308cse' -i 0.0.0.0 -p $PORT
+  path: app
+  domain: mybluemix.net
+  instances: 1
+  buildpack: python_buildpack
+  mem: 128M
